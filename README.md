@@ -82,8 +82,6 @@ Implementação
      geom_errorbar(aes(ymin = lower_bound, ymax = upper_bound), width = 0.2) +
      labs(title = "Previsões dos Retornos Diários", x = "Dia Futuro", y = "Retorno Previsto") +
      theme_minimal()
-   ```
-
 ---
 
 A análise resultou em previsões detalhadas dos retornos diários futuros, incluindo intervalos de confiança de 95%. O gráfico gerado ilustrou claramente as médias previstas e a incerteza associada a cada previsão. Esta abordagem permitiu aos analistas financeiros entender melhor os possíveis cenários futuros e tomar decisões informadas.
