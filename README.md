@@ -2,22 +2,25 @@
 
 ---
 
-Introdução
+## Introdução
+
 A previsão de retornos financeiros é uma tarefa essencial para investidores e gestores de fundos. Este case de sucesso demonstra como a análise bayesiana, utilizando o pacote `brms` no R, foi aplicada para prever retornos diários de um ativo financeiro. A análise bayesiana oferece uma abordagem robusta para modelagem e previsão, considerando a incerteza inerente aos dados financeiros.
 
 ---
 
-Desafio
+## Desafio
+
 Os mercados financeiros são caracterizados por volatilidade e incerteza. Modelar e prever os retornos diários de ativos financeiros é um desafio devido à natureza imprevisível dos dados. A tarefa exige uma abordagem que não só capture a média dos retornos, mas também a incerteza associada.
 
 ---
 
-Solução
+## Solução
+
 Utilizando o pacote `brms`, que é uma interface para o software de modelagem bayesiana Stan, foi possível construir um modelo para analisar e prever os retornos diários de um ativo financeiro. Este modelo considerou a distribuição gaussiana (normal) dos retornos, permitindo uma análise robusta e previsões confiáveis.
 
 ---
 
-Implementação
+## Implementação
 
 1. Instalação e Carregamento dos Pacotes:
 
